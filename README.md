@@ -10,7 +10,7 @@
   >Write a method that takes a list of program items and returns the name of one which has longest
   broadcast time. If there are many longest items, display name of any of them.
   >
-  >Consider that no item can span through more than one day (like starts  
+  >Consider that no item can span through more than one day (like starts
   before midnight and ends next day).
   >
   >Method signature:  
