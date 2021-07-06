@@ -22,11 +22,11 @@ public class TvProgramItem implements Comparable<TvProgramItem> {
 	private int endMinutes;
 	
 	/**
-	 * @param name 			the TV program name, must not be {@code null} or empty
-	 * @param beginHours 	the starting hour of the TV program, in range 0..23
-	 * @param beginMinutes	the starting minute of the TV program, in range 0..59
-	 * @param endHours		the ending hour of the TV program, in range 0..23
-	 * @param endMinutes	the starting minute of the TV program, in range 0..59
+	 * @param name          the TV program name, must not be {@code null} or empty
+	 * @param beginHours    the starting hour of the TV program, in range 0..23
+	 * @param beginMinutes  the starting minute of the TV program, in range 0..59
+	 * @param endHours      the ending hour of the TV program, in range 0..23
+	 * @param endMinutes    the starting minute of the TV program, in range 0..59
 	 * @throws IllegalArgumentException if some argument is out of range
 	 */
 	public TvProgramItem(String name, int beginHours, int beginMinutes, int endHours,
