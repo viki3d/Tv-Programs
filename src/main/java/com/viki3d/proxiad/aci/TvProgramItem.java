@@ -39,19 +39,19 @@ public class TvProgramItem implements Comparable<TvProgramItem> {
 
     if ((beginHours < 0) || (beginHours > 23)) {
       throw new IllegalArgumentException(String.format("Invalid parameter 'beginHours' = %d. " 
-        + "Should be between 0 and 24 inclusive.", beginHours));
+        + "Should be between 0 and 23 inclusive.", beginHours));
     }
     if ((endHours < 0) || (endHours > 23)) {
       throw new IllegalArgumentException(String.format("Invalid parameter 'endHours' = %d. " 
-        + "Should be between 0 and 24 inclusive.", endHours));
+        + "Should be between 0 and 23 inclusive.", endHours));
     }
     if ((beginMinutes < 0) || (beginMinutes > 59)) {
       throw new IllegalArgumentException(String.format("Invalid parameter 'beginMinutes' = %d" 
-        + ". Should be between 0 and 24 inclusive.", beginMinutes));
+        + ". Should be between 0 and 59 inclusive.", beginMinutes));
     }
     if ((endMinutes < 0) || (endMinutes > 59)) {
       throw new IllegalArgumentException(String.format("Invalid parameter 'endMinutes' = %d" 
-        + ". Should be between 0 and 24 inclusive.", endMinutes));
+        + ". Should be between 0 and 59 inclusive.", endMinutes));
     }
     if ((name == null) || ("".equals(name))) {
       throw new IllegalArgumentException("Invalid parameter 'name': Program name can not be " 
